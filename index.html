@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Easy Trivia!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    
+</head>
+
+
+<body>
+    <div id="splashscreen">
+        <div class="splashBox">
+            
+            <h1>Easy Trivia!</h1>
+            <hr />
+            <p>You have 30 seconds to guess 5 questions.</p>
+            <br />
+            <p>Click To Start</p>
+            <button type="button" id="start-btn" class="btn btn-primary black-background white">START</button>
+        </div>
+    </div>
+
+
+    <!--couldnt hide this until quiz is done-->
+    <div id="timesUp">
+        <div class="wrongBox">
+            <h2 class="up">Times Up!</h2>
+            <hr />
+            <p>Here's youre score:</p>
+            <p id="correctTimesUp">Correct Answers: </p>
+            <p id="wrongTimesUp">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>EASY Trivia!</header>
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">30</div>
+        </div>
+
+        <div class="questions">
+                <!--couldnt get the submit button to workl-->
+            <button type="button" class="btn btn-primary black-background white" id="sub-but">Submit</button>
+           
+        </div>
+
+  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js "></script>
+</body>
+
+</html>
